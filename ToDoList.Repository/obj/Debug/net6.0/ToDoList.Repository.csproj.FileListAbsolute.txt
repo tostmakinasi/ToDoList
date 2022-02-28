@@ -1,0 +1,17 @@
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Repository.deps.json
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Repository.runtimeconfig.json
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Repository.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ref\ToDoList.Repository.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Repository.pdb
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Core.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\bin\Debug\net6.0\ToDoList.Core.pdb
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.csproj.AssemblyReference.cache
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.AssemblyInfoInputs.cache
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.AssemblyInfo.cs
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.csproj.CoreCompileInputs.cache
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.csproj.CopyComplete
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ref\ToDoList.Repository.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.pdb
+C:\Users\legion\source\repos\ToDoList\ToDoList.Repository\obj\Debug\net6.0\ToDoList.Repository.genruntimeconfig.cache

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ec64c491-aec4-41ec-8eea-24171ae415b6": {
+      "ProjectGuid": "ec64c491-aec4-41ec-8eea-24171ae415b6",
+      "DisplayName": "ToDoList.Core",
+      "ColorIndex": 0
+    },
+    "e93bd33d-0bb3-4251-aa6e-016ea67ed100": {
+      "ProjectGuid": "e93bd33d-0bb3-4251-aa6e-016ea67ed100",
+      "DisplayName": "ToDoList.API",
+      "ColorIndex": 1
+    },
+    "964398f3-723f-4b48-bfea-de0ad5aaed3f": {
+      "ProjectGuid": "964398f3-723f-4b48-bfea-de0ad5aaed3f",
+      "DisplayName": "ToDoList.Service",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
