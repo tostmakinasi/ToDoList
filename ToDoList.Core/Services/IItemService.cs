@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoList.Core.DTOs;
+using ToDoList.Core.Models;
 
 namespace ToDoList.Core.Services
 {
-    public interface IItemService
+    public interface IItemService:IService<Item>
     {
-        Task<List<ItemWithStepsDto>> GetAllItemsWithStepsAsync();
+        Task<CustomResponseDto<List<ItemWithStepsDto>>> GetAllItemsWithStepsAsync();
 
-        Task<ItemWithStepsDto> GetItemWithSteps(int id);
+        Task<CustomResponseDto<ItemWithStepsDto>> GetItemWithSteps(int id);
     }
 }

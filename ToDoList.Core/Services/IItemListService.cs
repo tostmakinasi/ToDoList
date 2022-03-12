@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDoList.Core.DTOs;
+using ToDoList.Core.Models;
 
 namespace ToDoList.Core.Services
 {
-    public interface IItemListService
+    public interface IItemListService:IService<ItemList>
     {
-        Task<List<ItemListWithItemsDto>> GetAllWithItemsAsync();
+        Task<CustomResponseDto<List<ItemListWithItemsDto>>> GetAllWithItemsAsync();
 
-        Task<List<ItemListWithItemsAndItemsStepsDto>> GetAllWithItemsAndStepsAsync();
+        Task<CustomResponseDto<List<ItemListWithItemsAndItemsStepsDto>>> GetAllWithItemsAndStepsAsync();
 
-        Task<ItemListWithItemsDto> GetItemListByIdWithItemAsync(int id);
+        Task<CustomResponseDto<ItemListWithItemsDto>> GetItemListByIdWithItemAsync(int id);
 
-        Task<ItemListWithItemsAndItemsStepsDto> GetItemListByIdWithItemAndStepsAsync(int id);
+        Task<CustomResponseDto<ItemListWithItemsAndItemsStepsDto>> GetItemListByIdWithItemAndStepsAsync(int id);
     }
 }

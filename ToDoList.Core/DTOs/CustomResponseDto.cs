@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ToDoList.Core.DTOs
 {
-    public class CustomResponseDto<T> where T:class
+    public class CustomResponseDto<T> 
     {
         public T Data { get; set; }
         public List<string> Errors { get; set; }
