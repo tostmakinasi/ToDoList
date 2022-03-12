@@ -22,22 +22,22 @@ namespace ToDoList.Service.Services
             _mapper = mapper;
         }
 
-        public async Task<List<ItemWithStepsDto>> GetAllItemsWithStepsAsync()
+        public async Task<CustomResponseDto<List<ItemWithStepsDto>>> GetAllItemsWithStepsAsync()
         {
             var items = await _repository.GetAllItemsWithStepsAsync();
             
             var itemsWithSteps = _mapper.Map<List<ItemWithStepsDto>>(items);
-            return itemsWithSteps;
+            return CustomResponseDto<List<ItemWithStepsDto>>.Success(200, itemsWithSteps);
 
         }
 
-        public async Task<ItemWithStepsDto> GetItemWithSteps(int id)
+        public async Task<CustomResponseDto<ItemWithStepsDto>> GetItemWithSteps(int id)
         {
             var item = await _repository.GetItemWithSteps(id);
 
             var itemWithSteps = _mapper.Map<ItemWithStepsDto>(item);
 
-            return itemWithSteps;
+            return CustomResponseDto<ItemWithStepsDto>.Success(200, itemWithSteps);
         }
     }
 }

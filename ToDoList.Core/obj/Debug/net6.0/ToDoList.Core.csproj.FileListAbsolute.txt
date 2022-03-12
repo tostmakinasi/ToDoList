@@ -2,7 +2,6 @@ C:\Users\legion\source\repos\ToDoList\ToDoList.Core\bin\Debug\net6.0\ToDoList.Co
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\bin\Debug\net6.0\ToDoList.Core.dll
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\bin\Debug\net6.0\ref\ToDoList.Core.dll
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\bin\Debug\net6.0\ToDoList.Core.pdb
-C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.AssemblyReference.cache
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.AssemblyInfoInputs.cache
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Co
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.dll
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ref\ToDoList.Core.dll
 C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.pdb
+C:\Users\legion\source\repos\ToDoList\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.AssemblyReference.cache

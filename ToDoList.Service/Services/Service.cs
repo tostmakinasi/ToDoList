@@ -22,16 +22,18 @@ namespace ToDoList.Service.Services
             _repository = repository;
         }
 
-        public async Task AddAsync(T entity)
+        public async Task<T> AddAsync(T entity)
         {
             await _repository.AddAsync(entity);
             await _unitOfWork.CommitChangesAsync();
+            return entity;
         }
 
-        public async Task AddRangeAsync(IEnumerable<T> items)
+        public async Task<IEnumerable<T>> AddRangeAsync(IEnumerable<T> items)
         {
             await _repository.AddRangeAsync(items);
             await _unitOfWork.CommitChangesAsync();
+            return items;
         }
 
         public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression)

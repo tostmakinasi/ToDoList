@@ -20,7 +20,12 @@
       "ProjectGuid": "964398f3-723f-4b48-bfea-de0ad5aaed3f",
       "DisplayName": "ToDoList.Service",
       "ColorIndex": 2
+    },
+    "a89ff609-28c5-4c2c-a764-bef81679339b": {
+      "ProjectGuid": "a89ff609-28c5-4c2c-a764-bef81679339b",
+      "DisplayName": "ToDoList.Repository",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

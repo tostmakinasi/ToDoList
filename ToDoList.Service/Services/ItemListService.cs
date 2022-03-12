@@ -23,36 +23,36 @@ namespace ToDoList.Service.Services
             _mapper = mapper;
         }
 
-        public async Task<List<ItemListWithItemsAndItemsStepsDto>> GetAllWithItemsAndStepsAsync()
+        public async Task<CustomResponseDto<List<ItemListWithItemsAndItemsStepsDto>>> GetAllWithItemsAndStepsAsync()
         {
             var itemList = await _repository.GetAllWithItemsAndStepsAsync();
             var itemListWithItemsAndSteps = _mapper.Map<List<ItemListWithItemsAndItemsStepsDto>>(itemList);
 
-            return itemListWithItemsAndSteps;
+            return CustomResponseDto<List<ItemListWithItemsAndItemsStepsDto>>.Success(200,itemListWithItemsAndSteps);
         }
 
-        public async Task<List<ItemListWithItemsDto>> GetAllWithItemsAsync()
+        public async Task<CustomResponseDto<List<ItemListWithItemsDto>>> GetAllWithItemsAsync()
         {
             var itemList = await _repository.GetAllWithItemsAsync();
             var itemListWithItems = _mapper.Map<List<ItemListWithItemsDto>>(itemList);
 
-            return itemListWithItems;
+            return CustomResponseDto<List<ItemListWithItemsDto>>.Success(200, itemListWithItems);
         }
 
-        public async Task<ItemListWithItemsAndItemsStepsDto> GetItemListByIdWithItemAndStepsAsync(int id)
+        public async Task<CustomResponseDto<ItemListWithItemsAndItemsStepsDto>> GetItemListByIdWithItemAndStepsAsync(int id)
         {
             var itemList = await _repository.GetItemListByIdWithItemAndStepsAsync(id);
             var itemListWithItemsAndSteps = _mapper.Map<ItemListWithItemsAndItemsStepsDto>(itemList);
 
-            return itemListWithItemsAndSteps;
+            return CustomResponseDto<ItemListWithItemsAndItemsStepsDto>.Success(200, itemListWithItemsAndSteps);
         }
 
-        public async Task<ItemListWithItemsDto> GetItemListByIdWithItemAsync(int id)
+        public async Task<CustomResponseDto<ItemListWithItemsDto>> GetItemListByIdWithItemAsync(int id)
         {
             var itemList = await _repository.GetItemListByIdWithItemAsync(id);
             var itemListWithItems = _mapper.Map<ItemListWithItemsDto>(itemList);
 
-            return itemListWithItems;
+            return CustomResponseDto<ItemListWithItemsDto>.Success(200, itemListWithItems);
         }
     }
 }

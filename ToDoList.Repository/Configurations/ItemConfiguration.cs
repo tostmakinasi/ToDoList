@@ -17,6 +17,7 @@ namespace ToDoList.Repository.Configurations
             builder.Property(x => x.Title).IsRequired().HasMaxLength(100);
             builder.Property(x=> x.Description).HasMaxLength(250);
             builder.Property(x => x.Status).IsRequired();
+            builder.HasQueryFilter(x => x.IsDeleted == false);
         }
     }
 }

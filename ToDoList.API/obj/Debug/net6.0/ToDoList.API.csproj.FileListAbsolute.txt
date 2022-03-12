@@ -68,3 +68,5 @@ C:\Users\legion\source\repos\ToDoList\ToDoList.API\obj\Debug\net6.0\ToDoList.API
 C:\Users\legion\source\repos\ToDoList\ToDoList.API\obj\Debug\net6.0\ref\ToDoList.API.dll
 C:\Users\legion\source\repos\ToDoList\ToDoList.API\obj\Debug\net6.0\ToDoList.API.pdb
 C:\Users\legion\source\repos\ToDoList\ToDoList.API\obj\Debug\net6.0\ToDoList.API.genruntimeconfig.cache
+C:\Users\legion\source\repos\ToDoList\ToDoList.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\legion\source\repos\ToDoList\ToDoList.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
