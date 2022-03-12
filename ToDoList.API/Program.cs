@@ -1,6 +1,7 @@
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using ToDoList.API.Filters;
 using ToDoList.Core.Repositories;
 using ToDoList.Core.Services;
 using ToDoList.Core.UnitOfWorks;
@@ -26,9 +27,11 @@ builder.Services.AddScoped<IItemService,ItemService>();
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IItemRepository,ItemRepository>();
-builder.Services.AddScoped<IItemListRepository,IItemListRepository>();
+builder.Services.AddScoped<IItemListRepository,ItemListRepository>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
